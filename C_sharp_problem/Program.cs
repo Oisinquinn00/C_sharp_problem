@@ -1,8 +1,8 @@
 ﻿namespace validSentenceProgram
 {
-     class Program
+     public class Program
     {
-        static void Main()
+        public static void Main()
         {
             Console.WriteLine("Enter a valid sentence: ");          // ask the user for a valid sentence 
             string input = Console.ReadLine();                      // save user input as string "input"
@@ -10,7 +10,7 @@
             Console.WriteLine($"The sentence is valid : {is_valid}");
         }
 
-        static bool is_sentence_valid(string input)       //set up boolean method which takes user input as a parameter 
+        public static bool is_sentence_valid(string input)       //set up boolean method which takes user input as a parameter 
         {
             if (input == null)    //sentence cannot be valid if its empty 
                 return false;
