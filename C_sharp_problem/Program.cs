@@ -1,4 +1,4 @@
-﻿namespace C_sharp_problem
+﻿namespace validSentenceProgram
 {
      class Program
     {
