@@ -1,6 +1,6 @@
 ﻿namespace validSentenceProgram
 {
-     public class Program
+     public class validSentence
     {
         public static void Main()
         {
@@ -12,7 +12,7 @@
 
         public static bool is_sentence_valid(string input)       //set up boolean method which takes user input as a parameter 
         {
-            if (input == null)    //sentence cannot be valid if its empty 
+            if (input == "")    //sentence cannot be valid if its empty 
                 return false;
             
             if (!char.IsUpper(input[0]))    //Task 1: the char at index [0] must be a capital 
